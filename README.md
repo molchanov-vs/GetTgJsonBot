@@ -1,8 +1,22 @@
-# Telegram JSON Echo Bot
+<p align="center">
+  <img src="assets/bot-start-page.png" alt="Telegram JSON Echo Bot start page artwork" width="820">
+</p>
 
-A minimal Telegram bot that returns a compact, pretty-printed JSON summary of messages sent to it.
+<h1 align="center">Telegram JSON Echo Bot</h1>
+
+<p align="center">
+  <img src="assets/bot-photo-v2.png" alt="Telegram JSON Echo Bot icon" width="140">
+</p>
+
+<p align="center">
+  A simple Telegram bot that returns message metadata as pretty JSON without saving data.
+</p>
 
 The bot does not use a database and does not persist message history. It only reads the incoming Telegram update, extracts useful technical fields, and sends the result back to the user.
+
+## What It Does
+
+Send the bot a message, media, sticker, forwarded message, reply, or reaction. It responds with a compact normalized JSON summary that is easy to read in Telegram and useful for debugging Bot API data.
 
 ## Features
 
@@ -15,6 +29,14 @@ The bot does not use a database and does not persist message history. It only re
 - Compact normalized output without the full raw Telegram update.
 - Pretty JSON output in a Telegram code block with `json` syntax highlighting.
 - Automatic `.json` file response when the payload is too large for a Telegram message.
+
+## BotFather Assets
+
+This repository includes ready-to-upload artwork for BotFather:
+
+- Bot profile photo: [`assets/bot-photo-v2.png`](assets/bot-photo-v2.png)
+- Alternative profile photo: [`assets/bot-photo.png`](assets/bot-photo.png)
+- Bot start page photo: [`assets/bot-start-page.png`](assets/bot-start-page.png)
 
 ## Requirements
 
