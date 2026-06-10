@@ -12,7 +12,13 @@
   A simple Telegram bot that returns message metadata as pretty JSON without saving data.
 </p>
 
+<p align="center">
+  <a href="https://t.me/GetTgJsonBot"><strong>Open @GetTgJsonBot in Telegram</strong></a>
+</p>
+
 The bot does not use a database and does not persist message history. It only reads the incoming Telegram update, extracts useful technical fields, and sends the result back to the user.
+
+You can use the hosted bot at [@GetTgJsonBot](https://t.me/GetTgJsonBot), or deploy your own instance with the instructions below.
 
 ## What It Does
 
